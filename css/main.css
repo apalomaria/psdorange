@@ -1,9 +1,52 @@
 nav {
   background: #ff8000;
-}
-img {
+   -webkit-box-shadow: 0 8px 6px -6px #999;
+   height: 100px;
+   left: 0;
+   right: 0;
+   top: 0;
+   width: 100%;
+ }
+
+ nav a {
+   text-decoration: none;
+   color: white;
+   font-family: Arial;
+   text-align: left;
+   font-weight: 100;
+   left: 25px;
+   top: 15px;
+ }
+
+nav img {
   height: 30px;
 }
-ul {
+
+nav ul{
   display: inline-block;
+  position: absolute;
+  right: 25px;
+  top: 30px;
+  margin-right: 25px;
+
 }
+
+nav li {
+  display: inline-block;
+  padding: 0 15px;
+  margin: 0 20px;
+}
+
+.orange {
+  display: inline-block;
+  font-size: 50px;
+  color: white;
+  margin-left: 10%;
+
+}
+.orange span {
+  font-weight: bold;
+
+}
+
+/** MIDDLE PART OF SITE **/
