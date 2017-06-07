@@ -78,9 +78,9 @@ input {
   width: 350px;
   background-color: #f2f2f2;
   float: right;
-
 }
 
+}
 .search {
   position: relative;
   float: right;
@@ -142,7 +142,7 @@ input {
 #site-footer {
   display: block;
   background: #00ffff;
-  height: 100px;
+  height: 90px;
   position: absolute;
   right: 0;
   bottom: 0;
