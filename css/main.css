@@ -6,6 +6,7 @@ nav {
    right: 0;
    top: 0;
    width: 100%;
+   position: absolute;
  }
 
  nav a {
@@ -60,7 +61,7 @@ section {
 .whole {
   display: inline-block;
   height: 50%;
-  margin: 9% 11%;
+  margin: 14% 11%;
   float: left;
   width: 20%;
 }
@@ -81,9 +82,10 @@ input {
 }
 
 .search {
+  position: relative;
   float: right;
   width: 25%;
-  margin: 3% 40%;
+  margin: 10% 60px 3% 40%;
   padding: 0 20%;
 }
 
@@ -135,4 +137,15 @@ input {
   text-align: center;
   height: 75px;
   width: 350px;
+}
+
+#site-footer {
+  display: block;
+  background: #00ffff;
+  height: 100px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
 }
