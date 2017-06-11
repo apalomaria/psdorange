@@ -87,6 +87,13 @@ input {
   width: 25%;
   margin: 10% 60px 3% 40%;
   padding: 0 20%;
+  font-size: 25px
+}
+
+i {
+  position: relative;
+  float: right;
+  font-size: 55px;
 }
 
 .paragraph {
@@ -159,13 +166,13 @@ input {
     font-size: 45px;
   }
   .search {
-    margin: 10% 10% 0 10%;
+    margin: 15% 10% 0 10%;
   }
 }
 
 @media (max-width: 1300px) {
   .paragraph{
-    margin: 100px 0 100px ;
+    margin: 10% 0 10% ;
     font-size: 38px;
 
   }
@@ -180,7 +187,7 @@ input {
     width: 45%;
   }
   .paragraph {
-    margin: 30% 0 0 0;
+    margin: 5% 0 5%;
   }
   .whole {
     margin: 14% 2%;
@@ -189,11 +196,22 @@ input {
     right: 0;
     top: 55px;
   }
-}
+  .right {
+    width: 70%;
+  }
 
 @media (max-width: 740px){
   nav {
     height: 122px;
+  }
+  .paragraph {
+    text-shadow: 2px 2px 2px #000;
+  }
+  .whole {
+    margin-top: 45%;
+  }
+  .search {
+    margin: 25% 10% 0 10%;
   }
 
 }
